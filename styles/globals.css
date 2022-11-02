@@ -1,0 +1,10 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#010d12]  text-gray-300 overflow-x-hidden scrollbar-hide;
+  }
+}
